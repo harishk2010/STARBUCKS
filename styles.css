@@ -1,0 +1,326 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 1rem;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    }
+
+header{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   
+
+    
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    padding: 0 210px;
+    box-shadow: rgba(128, 128, 128, .8) 0px 1px 10px;
+    
+
+}
+.b{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.b .nav{
+    width: 100%;
+    
+    display: flex;
+   
+    justify-content: space-between;
+    
+   
+
+    background-color: rgb(255, 255, 255);
+
+}
+.logo img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+
+
+}
+.nav ul a {
+    
+    height: 100%;
+
+    
+}
+.nav ul li{
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-opt{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 0px;
+    
+    
+    
+}
+.location img{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.nav-opt .account {
+ 
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-weight: 600;
+    
+   margin:0px 10px 0px 30px;
+
+    
+}
+.nav-opt a{
+    color: black;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    height: vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    
+}
+.main .post1{
+    width: 1440px;
+    height: 625px;
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 32px;
+    
+}
+.main .post11{
+    width: 1440px;
+    height: 420px;
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 32px;
+    
+}
+.photo1 img{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo11 img{
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post1 .quote{
+    width: 720px;
+    background-color: #bbf2d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote11{
+    width: 720px;
+    background-color: #bbf2d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post1 .photo img{
+    width: 720px;
+    display: flex;
+    align-items: center;
+}
+.photo1{
+    width: 420px;
+    display: flex;
+    align-items: center;
+
+}
+.photo1 img{
+    width: 620px;
+}
+.innerb{
+    width: 624px;
+    height: 561px;
+    /*background-color: black;*/
+    padding: 32px 48px 32px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.innerb1{
+    width: 624px;
+    height: 561px;
+    /*background-color: black;*/
+    padding: 32px 48px 32px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.innerb b h1{
+    margin-bottom: 20px;
+}
+.post1 .quote1{
+    width: 720px;
+    background-color: #337481;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dilog {
+    text-align: center;
+    letter-spacing: 0px;
+    width: 720px;;
+    height: 366px;
+    font-family: sans-serif;
+    font-size:medium;
+
+    
+}
+
+
+.innerb h1{
+    font-size: 50px;
+}
+.innerb,.innerb1 p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.button3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.venmo{
+    width: 100%;
+    height: 89px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(128, 128, 128, .8) 1px 0px 10px;
+}
+footer{
+    width: 100%;
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.foot{
+    width: 80%;
+}
+.thenavbos{
+    display: flex;
+    
+}
+.bosses{
+    margin: 30px 10px 10px 10px;
+}
+.heads{
+    color: rgb(88, 86, 86);
+    margin-bottom: 30px;
+}
+.bosses ul li{
+    color: rgb(158, 155, 155);
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.line1{
+    width: 100%;
+}
+.smi{
+    width: 50px;
+}
+.socialmediaicons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.smi2,.smi5{
+    width: 30px;
+}
+.smi4,.smi6{
+    width: 50px;
+}
+.smi3{
+    width: 60px;
+}
+.end{
+    
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    font-style: none;
+    
+}
+.end a{
+    color: black;
+}
+.lastoffooter
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.end{
+margin-top: 30px;
+}
+.theend{
+margin-top: 30px;
+}
